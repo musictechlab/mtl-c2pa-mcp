@@ -1,6 +1,11 @@
 # mtl-c2pa-mcp
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/musictechlab/mtl-c2pa-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/musictechlab/mtl-c2pa-mcp/actions/workflows/ci.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://docs.astral.sh/ruff/)
+[![MCP](https://img.shields.io/badge/MCP-1.0+-purple.svg)](https://modelcontextprotocol.io/)
+[![Built by MusicTech Lab](https://musictechlab.io/oss/build-by-musictechlab.io.svg)](https://musictechlab.io)
 
 MCP server for reading [C2PA](https://c2pa.org/) content provenance manifests from media files — built for [Claude Code](https://claude.com/claude-code).
 

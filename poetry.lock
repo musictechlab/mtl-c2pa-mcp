@@ -1445,4 +1445,4 @@ packaging = ">=24.0"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10"
-content-hash = "2110fd35b86a4c2729df73bf2d81448da17d1f9399e195afce87e4459ffe200c"
+content-hash = "f5aa21614c0f70a17de29a0fac38eaba0f6539026a7d051e586fadf7af28e7f2"

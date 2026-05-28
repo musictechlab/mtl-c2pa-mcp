@@ -22,8 +22,6 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
-[dependency-groups]
-dev = [
-    "ruff (>=0.15.6,<0.16.0)",
-    "pytest (>=9.0.2,<10.0.0)"
-]
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.15.6,<0.16.0"
+pytest = ">=9.0.2,<10.0.0"

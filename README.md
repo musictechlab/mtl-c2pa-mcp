@@ -10,6 +10,8 @@ C2PA (Coalition for Content Provenance and Authenticity) is the open standard be
 
 This MCP wraps the official [`c2pa-python`](https://github.com/contentauth/c2pa-python) library so Claude can read those manifests in plain language.
 
+![C2PA manifest summary rendered in Claude Code for a Lyria-generated MP3](docs/c2pa-mcp-claude-example.webp)
+
 ## Tools
 
 | Tool | Description |
@@ -96,9 +98,13 @@ Once configured, just ask Claude in natural language.
 
 > "Is the C2PA signature on `track.mp3` valid? Who signed it?"
 
-### Audit a downloads folder
+### Audit a music folder
 
-> "Scan `~/Downloads` for AI-generated audio files."
+> "Scan my `~/Music` directory and prepare a list of tracks with info if c2pa is included."
+
+![C2PA scan of a Music folder showing which tracks carry a manifest and which are AI-generated](docs/c2pa-mcp-scan-example.webp)
+
+Or in raw JSON form:
 
 ```json
 {

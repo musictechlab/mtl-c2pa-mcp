@@ -138,6 +138,10 @@ Or in raw JSON form:
 
 Returns the same JSON shape produced by `c2patool ./track.mp3` — useful when you need every field.
 
+## Use inside Ableton Live
+
+If you want to surface C2PA manifests on the selected clip in Ableton Live, the [`mtl-c2pa-ableton`](https://github.com/musictechlab/mtl-c2pa-ableton) repo ships a self-contained Max for Live device + local HTTP server. It bundles its own C2PA reader — no need to install this MCP separately.
+
 ## Why this exists
 
 When Google shipped C2PA in Lyria MP3 downloads in May 2026, it became the first major DSP-adjacent player to embed AI provenance directly in music files. Inspecting those manifests usually means installing the Rust `c2patool` binary and reading raw JSON. This MCP lets you ask Claude *"is this AI-generated?"* and get a clean answer — same workflow as `mtl-metadata-mcp` and `mtl-vhc`, but for provenance instead of ID3 tags or human-cert registry lookups.
